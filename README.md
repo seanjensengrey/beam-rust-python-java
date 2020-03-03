@@ -3,10 +3,10 @@
 This currently shows a couple methods of interfacing Rust code with Python and Java.
 
 * Python
- * via [PyO3](https://github.com/PyO3/PyO3)
- * [CFFI](https://cffi.readthedocs.io/en/latest/)
+  * via [PyO3](https://github.com/PyO3/PyO3)
+  * [CFFI](https://cffi.readthedocs.io/en/latest/)
 * Java
- * Java Native Access [JNA](https://github.com/java-native-access/jna)
+  * Java Native Access [JNA](https://github.com/java-native-access/jna)
 
 The example code integrates a [Levenshtein Distance](https://en.wikipedia.org/wiki/Levenshtein_distance) routine from the following libraries
 
