@@ -3,3 +3,4 @@ ipython
 maturin
 setuptools
 wheel
+pytest
