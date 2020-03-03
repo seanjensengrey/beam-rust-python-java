@@ -1,0 +1,5 @@
+cffi
+ipython
+maturin
+setuptools
+wheel

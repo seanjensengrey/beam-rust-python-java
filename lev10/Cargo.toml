@@ -1,0 +1,23 @@
+[package]
+name = "lev10"
+version = "0.1.0"
+edition = "2018"
+authors = ["Sean Jensen-Grey <sean.jensengrey@gmail.com>"]
+
+
+[lib]
+name = "lev10"
+crate-type = ["cdylib"]
+
+[dependencies]
+levenshtein = "1.0.4"
+
+[dependencies.pyo3]
+version = "0.8.5"
+features = ["extension-module"]
+
+[target.x86_64-apple-darwin]
+rustcflags = [
+  "-C", "link-arg=-undefined",
+  "-C", "link-arg=dynamic_lookup",
+]

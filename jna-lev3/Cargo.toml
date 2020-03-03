@@ -1,0 +1,13 @@
+[package]
+name = "lev3"
+version = "0.1.0"
+authors = ["Sean Jensen-Grey <seanj@xyke.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+strsim = "0.10.0"
+libc = "*"
+
